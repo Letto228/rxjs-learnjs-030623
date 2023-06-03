@@ -2,6 +2,8 @@
 // import '../../assets/css/style.css';
 // import { terminalLog } from '../../utils/log-in-terminal';
 
+import { Observable, Subscriber } from "rxjs";
+
 // // const stream$ = new Promise(resolve => {
 // //     let count = 0;
 
@@ -110,3 +112,9 @@
 //         subsription.unsubscribe();
 //     }, 9000)
 // }, 3000)
+
+// function defer(cb: () => Observable<any>) {
+//     return new Observable((subscriber: Subscriber<number>) => {
+//         return cb().subscribe(subscriber);
+//     })
+// }
